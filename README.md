@@ -19,3 +19,6 @@ C:\Program Files (x86)\Steam\steamapps\common\Going Medieval\Going Medieval_Data
 
 Original Mod by 鹿神ヒハル
 https://steamcommunity.com/sharedfiles/filedetails/?id=3383630473
+
+All rights and credit to Foxy Voxel (Developer)/Mythwright (Publisher)
+https://store.steampowered.com/app/1029780/Going_Medieval/
