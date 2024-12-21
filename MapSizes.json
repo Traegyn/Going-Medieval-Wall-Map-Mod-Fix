@@ -1,0 +1,115 @@
+{
+	"repository": [
+		{
+			"id": "map_size_dev_100",
+			"locKeys": [
+				{
+				  "languageName": "English",
+				  "name": "Dev 100"
+				}
+			],
+			"width": 92,
+			"height": 16,
+			"length": 92,
+			"blockHeight": 3,
+			"plantSpawnRateMultiplier": 1.0,
+			"raidDelayBeforeAttack": 10,
+			"raidDontEngageCombatDuration": 200,
+			"shownInRelease": false,
+			"idlePointsCountPerAnimal": 4
+		},
+		{
+			"id": "default_size",
+			"locKeys": [
+				{
+				  "languageName": "English",
+				  "name": "map_size_small"
+				}
+			],
+			"width": 206,
+			"height": 16,
+			"length": 206,
+			"blockHeight": 3,
+			"plantSpawnRateMultiplier": 1.0,
+			"raidDelayBeforeAttack": 30,
+			"raidDontEngageCombatDuration": 220,
+			"shownInRelease": true,
+			"idlePointsCountPerAnimal": 15
+		},
+		{
+			"id": "map_size_medium",
+			"locKeys": [
+				{
+				  "languageName": "English",
+				  "name": "map_size_medium"
+				}
+			],
+			"width": 236,
+			"height": 16,
+			"length": 236,
+			"blockHeight": 3,
+			"plantSpawnRateMultiplier": 1.2,
+			"raidDelayBeforeAttack": 20,
+			"raidDontEngageCombatDuration": 270,
+			"shownInRelease": true,
+			"idlePointsCountPerAnimal": 30
+		},
+		{
+			"id": "map_size_large",
+			"locKeys": [
+				{
+				  "languageName": "English",
+				  "name": "map_size_large"
+				}
+			],
+			"width": 266,
+			"height": 16,
+			"length": 266,
+			"blockHeight": 3,
+			"plantSpawnRateMultiplier": 1.4,
+			"raidDelayBeforeAttack": 10,
+			"raidDontEngageCombatDuration": 350,
+			"shownInRelease": true,
+			"idlePointsCountPerAnimal": 40
+		},
+		{
+			"id": ";",
+			"locKeys": [
+				{
+				  "languageName": "English",
+				  "name": "Dev 512"
+				}
+			],
+			"width": 512,
+			"height": 16,
+			"length": 512,
+			"blockHeight": 3,
+			"plantSpawnRateMultiplier": 3.0,
+			"shownInRelease": true,
+			"raidDelayBeforeAttack": 15,
+			"raidDontEngageCombatDuration": 500,
+			"brushType": "large",
+			"idlePointsCountPerAnimal": 40
+		},
+		{
+			"id": "map_size_dev_128",
+			"locKeys": [
+				{
+				  "languageName": "English",
+				  "name": "Dev 128 (mine test)"
+				}
+			],
+			"width": 128,
+			"height": 16,
+			"length": 128,
+			"blockHeight": 3,
+			"plantSpawnRateMultiplier": 1.0,
+			"raidDelayBeforeAttack": 10,
+			"raidDontEngageCombatDuration": 200,
+			"shownInRelease": false,
+			"idlePointsCountPerAnimal": 1
+		}
+	]
+}
+
+

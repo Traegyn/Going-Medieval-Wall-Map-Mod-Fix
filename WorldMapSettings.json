@@ -1,0 +1,135 @@
+{
+  "cellTypes": [
+    {
+      "id": 4,
+      "mapType": "map_type_wetland",
+      "meshes": [
+        "map_type_valley_4",
+        "map_type_valley_5",
+        "map_type_valley_6"
+      ],
+      "height": 0.0
+    },
+	{
+      "id": 21,
+      "mapType": "map_type_wall_kgm",
+      "meshes": [
+        "map_type_hill_1",
+        "map_type_hill_2",
+        "map_type_hill_3",
+        "map_type_hill_4"
+      ],
+      "height": 0.521
+    },
+    {
+      "id": 5,
+      "mapType": "map_type_island",
+      "meshes": [
+        "map_type_valley_4",
+        "map_type_valley_5",
+        "map_type_valley_6"
+      ],
+      "height": 0.5
+    },
+    {
+      "id": 0,
+      "mapType": "map_type_valley",
+      "meshes": [
+        "map_type_valley_1",
+        "map_type_valley_2",
+        "map_type_valley_3",
+        "map_type_valley_4",
+        "map_type_valley_5",
+        "map_type_valley_6"
+      ],
+      "height": 0.05
+    },
+    {
+      "id": 1,
+      "mapType": "map_type_hill",
+      "meshes": [
+        "map_type_hill_1",
+        "map_type_hill_2",
+        "map_type_hill_3",
+        "map_type_hill_4"
+      ],
+      "height": 0.4
+    },
+    {
+      "id": 2,
+      "mapType": "map_type_mountain",
+      "meshes": [
+        "map_type_mountain_1",
+        "map_type_mountain_2"
+      ],
+      "height": 0.65
+    },
+    {
+      "id": 3,
+      "mapType": "map_type_mountain",
+      "meshes": [
+        "map_type_mountain_1",
+        "map_type_mountain_2"
+      ],
+      "height": 0.95
+    }
+  ],
+  "startMapTypes": [
+    "map_type_wetland",
+    "map_type_valley",
+    "map_type_hill",
+    "map_type_mountain",
+    "map_type_island",
+	"map_type_wall_kgm"
+  ],
+  "resolution": {
+    "x": "50",
+    "y": "50"
+  },
+  "influenceMaxWealth": 80000,
+  "events": [
+    {
+      "key": 0.2,
+      "value": "game_event_influence_20"
+    },
+    {
+      "key": 1.0,
+      "value": "game_event_influence_100"
+    }
+  ],
+  "stockModifiersByMapId": [
+    {
+      "id": "map_type_valley",
+      "stockModifiers": [
+        "valley_stock_modifier"
+      ]
+    },
+	{
+      "id": "map_type_wall_kgm",
+      "stockModifiers": [
+      ]
+	},	  
+    {
+      "id": "map_type_wetland",
+      "stockModifiers": [
+        "wetland_stock_modifier"
+      ]
+    },
+    {
+      "id": "map_type_mountain",
+      "stockModifiers": [
+        "mountain_stock_modifier"
+      ]
+    },
+    {
+      "id": "map_type_hill",
+      "stockModifiers": [
+      ]
+    },
+    {
+      "id": "map_type_island",
+      "stockModifiers": [
+      ]
+    }
+  ]
+}
